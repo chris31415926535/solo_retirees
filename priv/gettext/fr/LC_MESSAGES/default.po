@@ -1,0 +1,215 @@
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:86
+#: lib/solo_retirees_web/live/solo_retirees.ex:99
+#, elixir-autogen, elixir-format
+msgid "About the Project"
+msgstr "À propos du projet"
+
+#: lib/solo_retirees_web/components/core_components.ex:482
+#, elixir-autogen, elixir-format
+msgid "Actions"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:160
+#, elixir-autogen, elixir-format
+msgid "Attempting to reconnect"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:151
+#, elixir-autogen, elixir-format
+msgid "Error!"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:172
+#, elixir-autogen, elixir-format
+msgid "Hang in there while we get back on track"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:167
+#, elixir-autogen, elixir-format
+msgid "Something went wrong!"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:150
+#, elixir-autogen, elixir-format
+msgid "Success!"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:155
+#, elixir-autogen, elixir-format
+msgid "We can't find the internet"
+msgstr ""
+
+#: lib/solo_retirees_web/components/core_components.ex:76
+#: lib/solo_retirees_web/components/core_components.ex:130
+#, elixir-autogen, elixir-format
+msgid "close"
+msgstr ""
+
+#: lib/solo_retirees_web/controllers/page_html/home.html.heex:8
+#, elixir-autogen, elixir-format
+msgid "happy days"
+msgstr ""
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:12
+#: lib/solo_retirees_web/live/solo_retirees.ex:34
+#: lib/solo_retirees_web/live/solo_retirees.ex:47
+#: lib/solo_retirees_web/live/solo_retirees.ex:61
+#: lib/solo_retirees_web/live/solo_retirees.ex:64
+#: lib/solo_retirees_web/live/solo_retirees.ex:79
+#, elixir-autogen, elixir-format
+msgid "Optimizing the Wellbeing of Solo Retirees in Canada"
+msgstr "Optimiser le bien-être des retraités solos au Canada"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:82
+#, elixir-autogen, elixir-format
+msgid "A Project by the Life Research Institute and the University of Ottawa"
+msgstr "Un projet de LIFE Institut de recherche et de l'Université d'Ottawa"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:85
+#, elixir-autogen, elixir-format
+msgid "About"
+msgstr "Le projet"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:90
+#: lib/solo_retirees_web/live/solo_retirees.ex:265
+#, elixir-autogen, elixir-format, fuzzy
+msgid "About the Team"
+msgstr "À propos du projet"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:92
+#, elixir-autogen, elixir-format
+msgid "Contact"
+msgstr "Contact"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:87
+#, elixir-autogen, elixir-format
+msgid "Eligibility"
+msgstr "Admissibilité"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:88
+#, elixir-autogen, elixir-format
+msgid "How to Participate"
+msgstr "Comment participer"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:89
+#, elixir-autogen, elixir-format
+msgid "The Team"
+msgstr "L'équipe"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:105
+#, elixir-autogen, elixir-format
+msgid " A solo retiree is someone who has never married/partnered, is separated, divorced, or widowed, or is currently living apart from a partner and has retired or is nearing retirement."
+msgstr "Un retraité solo est une personne qui n'a jamais été mariée/en couple, qui est séparée, divorcée ou veuve, ou qui vit actuellement séparée de son partenaire et qui a pris sa retraite ou qui est sur le point de le faire."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:101
+#, elixir-autogen, elixir-format, fuzzy
+msgid "The Life Research Institute at the University of Ottawa is launching an innovative project to enhance the quality of life and optimize the wellbeing of solo retirees."
+msgstr "L'Institut de recherche sur la vie de l'Université d'Ottawa lance un projet novateur visant à améliorer la qualité de vie et à optimiser le bien-être des retraités solos."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:111
+#, elixir-autogen, elixir-format
+msgid "The first step is a national, bilingual study followed by the release of findings\n          and evidence-based resources."
+msgstr "La première étape consiste en une étude nationale bilingue suivie de la publication des résultats et de ressources fondées sur des preuves."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:117
+#, elixir-autogen, elixir-format
+msgid "The survey is now closed."
+msgstr "Le sondage est terminé."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:142
+#, elixir-autogen, elixir-format
+msgid "Although the survey is closed, you can still share your story with us if you:"
+msgstr "Le sondage est terminé, mais vous êtes admissible à partager votre histoire si vous:"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:147
+#, elixir-autogen, elixir-format
+msgid "Are retired (or are soon to be retired) and solo as described above, and"
+msgstr "Êtes retraité (ou sur le point de prendre votre retraite) et solo tel que décrit ci-dessus, et"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:153
+#, elixir-autogen, elixir-format
+msgid "Are willing to share your experiences through an online questionnaire."
+msgstr "Êtes disposé à partager vos expériences par le biais d'un questionnaire en ligne."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:150
+#, elixir-autogen, elixir-format
+msgid "Have a primary residence in Canada, and"
+msgstr "Avez une résidence principale au Canada, et"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:140
+#, elixir-autogen, elixir-format
+msgid "Share Your Story"
+msgstr "Partagez Votre Histoire"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:128
+#, elixir-autogen, elixir-format
+msgid "Thank you to all the participants who took the time to fill out the survey!"
+msgstr ""
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:125
+#, elixir-autogen, elixir-format
+msgid "The Survey is Now Closed"
+msgstr "Le Sondage est Terminé"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:132
+#, elixir-autogen, elixir-format
+msgid "The survey is now closed and we are hard at work analyzing the data."
+msgstr ""
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:160
+#, elixir-autogen, elixir-format
+msgid "All information provided during the study will remain confidential and will be used only for research purposes. The study follows the University of Ottawa’s strict ethical guidelines to ensure your privacy and safety throughout."
+msgstr "Toutes les informations que vous partagez dans le sondage sont strictement confidentielles. Toutes les informations recueillies seront utilisées exclusivement à des fins de recherche. La recherche et la collecte de données respectent les directives éthiques strictes de l'Université d'Ottawa afin de garantir votre vie privée et votre sécurité tout au long du processus."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:308
+#, elixir-autogen, elixir-format
+msgid "Director of the Canadian Index of Wellbeing (CIW) housed in the Faculty of Health at the University of\n                Waterloo (UW), Professor Emeritus in the Department of Recreation and Leisure Studies and cross-appointed\n                to the Department of Geography and Environmental Management. He received his Ph.D. in Geography from the\n                University of Western Ontario and both his Master’s and B.A. in Leisure Studies from the University of\n                Waterloo. His research focuses on the wellbeing of individuals and communities, the role of leisure in\n                wellbeing, the spatial distribution and analysis of leisure in communities, time use allocation, and\n                social indicators research. He was elected a Fellow to the Academy of Leisure Sciences, awarded the Hall\n                of Heroes Leadership Award by the Community Indicators Consortium, and the Outstanding Contribution to\n                Leisure Studies Award by the Canadian Association of Leisure Studies."
+msgstr "Directeur de l'Indice canadien du bien-être (ICB) au sein de la Faculté de santé de l'Université de Waterloo (UW), professeur émérite au Département des études sur les loisirs et la récréation et nommé conjointement au Département de géographie et de gestion de l'environnement. Il a obtenu son doctorat en géographie à l'université de Western Ontario, ainsi qu'une maîtrise et une licence en études des loisirs à l'université de Waterloo. Ses recherches portent sur le bien-être des individus et des communautés, le rôle des loisirs dans le bien-être, la distribution spatiale et l'analyse des loisirs dans les communautés, la répartition de l'emploi du temps et la recherche sur les indicateurs sociaux. Il a été élu membre de l'Academy of Leisure Sciences, a reçu le Hall of Heroes Leadership Award du Community Indicators Consortium et le Outstanding Contribution to Leisure Studies Award de l'Association canadienne pour l'étude des loisirs."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:290
+#, elixir-autogen, elixir-format
+msgid "Dr. Belanger is an Adjunct Professor at the University of Ottawa where his research interests include\n                health geography and access to healthcare, especially for older Ontarians and French-language speakers.\n                Dr. Belanger completed postdoctoral studies with the University of Ottawa and the Institut du Savoir\n                Montfort researching geospatial access to language-concordant primary care and digital health. He holds a\n                PhD in the Philosophy of Modern Physics (2015) and a BSc Hon. in Physics (2007), both from the University\n                of Toronto, an MBA from the University of Ottawa’s Telfer School of Management."
+msgstr "Le Dr Belanger est professeur adjoint à l'Université d'Ottawa où ses recherches portent sur la géographie de la santé et l'accès aux soins de santé, en particulier pour les Ontariens âgés et les locuteurs de la langue française. Il a effectué des études postdoctorales à l'Université d'Ottawa et à l'Institut du Savoir Montfort sur l'accès géospatial aux soins de santé primaires et à la santé numérique en fonction de la langue. Il est titulaire d'un doctorat en philosophie de la physique moderne (2015) et d'un baccalauréat spécialisé en physique (2007), tous deux de l'Université de Toronto, ainsi que d'un MBA de l'École de gestion Telfer de l'Université d'Ottawa."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:271
+#, elixir-autogen, elixir-format
+msgid "Dr. Corneil is an Adjunct Professor in the Telfer School of Management and a researcher with the LIFE\n                Research Institute at the University of Ottawa. His research focuses on psychosocial interventions and\n                on individual and organizational resilience. Dr. Corneil provides consulting to public and private\n                sector organizations on mental health in the workplace, creating psychologically safe workplaces,\n                resilience, psychosocial preparation for retirement, and crisis leadership. Dr. Corneil has doctorate in\n                Epidemiology and Occupational Health Psychology from the Johns Hopkins University and has professional\n                degrees in psychotherapy, social work, criminology, and adult education."
+msgstr "Le Dr Corneil est professeur auxiliaire à l'École de gestion Telfer et chercheur à l'Institut de recherche LIFE de l'Université d'Ottawa. Ses recherches portent sur les interventions psychosociales et sur la résilience individuelle et organisationnelle. Le Dr Corneil conseille les organisations des secteurs public et privé sur la santé mentale au travail, la création de lieux de travail psychologiquement sûrs, la résilience, la préparation psychosociale à la retraite et le leadership en cas de crise. Le Dr Corneil est titulaire d'un doctorat en épidémiologie et en psychologie de la santé au travail de l'université Johns Hopkins et a obtenu des diplômes professionnels en psychothérapie, en travail social, en criminologie et en éducation des adultes."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:267
+#, elixir-autogen, elixir-format
+msgid "Dr. Wayne Corneil"
+msgstr ""
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:366
+#, elixir-autogen, elixir-format
+msgid "Nora Spinks, CEO of Work-Life Harmony, is one of Canada’s leading experts in well-being and quality of\n                life. She is a member of the Canadian Wellbeing Knowledges Network’s leadership team, bringing together\n                professionals from multiple sectors to enhance understanding of well-being. She has worked with several\n                federal government departments on quality of life and well-being, including Statistics Canada’s Social\n                Conditions Committee and Quality-of-Life Hub, Finance Canada’s Canadian Quality of Life Framework, chair\n                of the National Seniors Council advising the Ministers of Health and Seniors on quality of life of seniors\n                and how to alleviate the challenges people face in retirement. She continues to work with academics and\n                scholars on tri-council-funded projects, including ones led by U of Ottawa, McGill U., Memorial U.,\n                McMaster U., Brock U, and Queens U."
+msgstr "Nora Spinks, PDG de Work-Life Harmony, est l'une des principales expertes canadiennes en matière de bien-être et de qualité de vie. Elle est membre de l'équipe dirigeante du Réseau canadien des connaissances sur le bien-être, qui réunit des professionnels de différents secteurs afin d'améliorer la compréhension du bien-être. Elle a travaillé avec plusieurs ministères fédéraux sur la qualité de vie et le bien-être, notamment avec le Comité des conditions sociales et le Carrefour de la qualité de vie de Statistique Canada, le Cadre canadien de la qualité de vie de Finances Canada et la présidence du Conseil national des aînés, qui conseille les ministres de la Santé et des Aînés sur la qualité de vie des aînés et sur les moyens d'atténuer les difficultés auxquelles les personnes sont confrontées à la retraite. Elle continue de travailler avec des universitaires et des chercheurs sur des projets financés par les trois conseils, notamment ceux menés par l'Université d'Ottawa, l'Université McGill, l'Université Memorial, l'Université McMaster, l'Université Brock et l'Université Queens."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:345
+#, elixir-autogen, elixir-format
+msgid "Throughout her career, as an executive coach, psychologist, speaker and author, Suzanne has focused on\n                helping individuals navigate transitions in their lives. She is a well-sought speaker on the transition to\n                retirement and has offered over 7,000 seminars on the psychological aspects to retirement. Suzanne is\n                certified as a professional integral coach by New Ventures West, California, and the International\n                Coaching Federation, in Conversational Intelligence™, Story Coaching™ and Navigating Transitions Coaching.\n                She is a licensed psychologist with Ordre des psychologues du Québec. Her academic background includes a\n                Master’s degree in clinical psychology (University of Ottawa), a B.A. in psychology (University of\n                Ottawa).\n"
+msgstr "Tout au long de sa carrière, en tant que coach de cadres, psychologue, conférencière et auteure, Suzanne s'est attachée à aider les individus à traverser les transitions de leur vie. Elle est une conférencière très demandée sur la transition vers la retraite et a offert plus de 7 000 séminaires sur les aspects psychologiques de la retraite. Suzanne est certifiée en tant que coach professionnel intégral par New Ventures West, en Californie, et par l'International Coaching Federation, en Conversational Intelligence™, Story Coaching™ et Navigating Transitions Coaching. Elle est psychologue agréée par l'Ordre des psychologues du Québec. Son parcours académique comprend une maîtrise en psychologie clinique (Université d'Ottawa), un baccalauréat en psychologie (Université d'Ottawa)."
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:405
+#, elixir-autogen, elixir-format
+msgid "To participate or learn more about the study, please contact our Primary Investigator:"
+msgstr "Pour participer à l'étude ou en savoir plus, veuillez contacter notre chercheur principal :"
+
+#: lib/solo_retirees_web/live/solo_retirees.ex:71
+#, elixir-autogen, elixir-format
+msgid "Français"
+msgstr "English"
