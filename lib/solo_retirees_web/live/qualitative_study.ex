@@ -64,9 +64,6 @@ defmodule SoloRetireesWeb.QualitativeStudyLive do
           content="The Canadian Study on the Wellbeing of Solo Retirees (CSRS) is a research project to optimize the wellbeing of solo retirees in Canada by investigating the wants, needs, and experiences of older retired Canadians living alone. The CSRS is run out of the Life Research Institute and University of Ottawa."
         />
         <link href="style.css" rel="stylesheet" />
-        <script>
-          fetch("https://hit-counter.fly.dev/api/hit?lang=en", { method: "POST" })
-        </script>
       </head>
 
       <header class="header">

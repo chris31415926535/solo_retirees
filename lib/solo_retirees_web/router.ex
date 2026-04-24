@@ -2,12 +2,30 @@ defmodule SoloRetireesWeb.Router do
   use SoloRetireesWeb, :router
 
   pipeline :browser do
+    plug :log_page_hits
     plug :accepts, ["html"]
     plug :fetch_session
     plug :fetch_live_flash
     plug :put_root_layout, html: {SoloRetireesWeb.Layouts, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+  end
+
+  def get_ip([ip]), do: ip
+  def get_ip(_), do: "unknown"
+
+  def log_page_hits(conn, _opts) do
+    # if Application.get_env(:docmapper_phx, :do_logging) == :prod do
+    ip = get_ip(get_req_header(conn, "x-forwarded-for"))
+    req_path = conn.request_path
+    # IO.inspect(ip, label: "*** IP: ")
+    # IO.inspect(req_path, label: "*** req_path: ")
+    SoloRetirees.PageHits.create_page_hit(%{path: req_path, ip: ip})
+    |> IO.inspect()
+
+    # end
+
+    conn
   end
 
   pipeline :api do
