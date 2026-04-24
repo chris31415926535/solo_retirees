@@ -14,7 +14,8 @@ defmodule SoloRetireesWeb.QualitativeStudyLive do
       %SoloRetirees.Surveys.Qualitative{}
       |> SoloRetirees.Surveys.change_qualitative()
       |> to_form()
-      |> IO.inspect()
+
+    # |> IO.inspect()
 
     {:ok,
      socket
@@ -31,14 +32,14 @@ defmodule SoloRetireesWeb.QualitativeStudyLive do
 
   @impl true
   def handle_params(params, _uri, socket) do
-    IO.inspect(params)
+    # IO.inspect(params)
 
     locale =
       params
       |> Map.get("locale", "en")
 
     #   |> Map.merge(%{"locale" => "en"})
-    IO.inspect(locale, label: "handle_params locale")
+    # IO.inspect(locale, label: "handle_params locale")
 
     Gettext.put_locale(locale)
 
@@ -342,9 +343,9 @@ defmodule SoloRetireesWeb.QualitativeStudyLive do
 
   def handle_event("change_locale", _unsigned_params, socket) do
     locale = Gettext.get_locale()
-    IO.inspect(locale, label: "locale")
+    # IO.inspect(locale, label: "locale")
     new_locale = if locale == "en", do: "fr", else: "en"
-    IO.inspect(new_locale, label: "new_locale")
+    # IO.inspect(new_locale, label: "new_locale")
 
     {
       :noreply,
@@ -365,7 +366,7 @@ defmodule SoloRetireesWeb.QualitativeStudyLive do
 
   @impl true
   def handle_event("button-submit", params, socket) do
-    result = Surveys.create_qualitative(params) |> IO.inspect()
+    result = Surveys.create_qualitative(params)
 
     case result do
       {:ok, _qualitative} ->
