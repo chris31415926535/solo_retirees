@@ -11,6 +11,7 @@
 #   - https://pkgs.org/ - resource for finding needed packages
 #   - Ex: docker.io/hexpm/elixir:1.18.3-erlang-27.3-debian-trixie-20260223-slim
 #
+ARG OHNO=`date`
 ARG ELIXIR_VERSION=1.18.3
 ARG OTP_VERSION=27.3
 ARG DEBIAN_VERSION=bullseye-20250317-slim
