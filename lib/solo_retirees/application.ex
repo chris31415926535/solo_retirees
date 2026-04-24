@@ -11,9 +11,9 @@ defmodule SoloRetirees.Application do
       SoloRetireesWeb.Telemetry,
       SoloRetirees.Repo,
       {DNSCluster, query: Application.get_env(:solo_retirees, :dns_cluster_query) || :ignore},
-      {Phoenix.PubSub, name: SoloRetirees.PubSub},
+      # {Phoenix.PubSub, name: SoloRetirees.PubSub},
       # Start the Finch HTTP client for sending emails
-      {Finch, name: SoloRetirees.Finch},
+      # {Finch, name: SoloRetirees.Finch},
       # Start a worker by calling: SoloRetirees.Worker.start_link(arg)
       # {SoloRetirees.Worker, arg},
       # Start to serve requests, typically the last entry
