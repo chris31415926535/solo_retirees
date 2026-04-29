@@ -24,7 +24,7 @@ defmodule SoloRetireesWeb.QualitativeStudyLive do
      |> assign(page_title: gettext("Optimizing the Wellbeing of Solo Retirees in Canada"))
      # |> assign(consented: false)
      # |> assign(state: "consent-form")}
-     |> assign(consented: true)
+     |> assign(consented: false)
      |> assign(gender_other: false)
      |> assign(living_other: false)
      |> assign(state: "consent-form")}
